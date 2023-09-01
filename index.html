@@ -9,17 +9,23 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="title">Mondrian Challenge</h1>
+      <div class="header_container">
+        <h1 class="title">Mondrian Challenge</h1>
+        <div class="checkbox_box">
+          <input type="checkbox" name="change_color" id="js" />
+          <label for="js">Click for change the color</label>
+        </div>
+      </div>
     </header>
     <main class="main">
       <section class="grid_container">
-        <div class="item white1"></div>
+        <div id="color1" class="item white1"></div>
         <div class="item blue1"></div>
         <div class="item white2"></div>
         <div class="item white3"></div>
         <div class="item blue2"></div>
         <div class="item white4"></div>
-        <div class="item white5"></div>
+        <div id="color2" class="item white5"></div>
         <div class="item red"></div>
         <div class="item white6"></div>
         <div class="item yellow1"></div>
@@ -27,8 +33,9 @@
         <div class="item yellow2"></div>
         <div class="item white8"></div>
         <div class="item blue3"></div>
-        <div class="item white9"></div>
+        <div id="color3" class="item white9"></div>
       </section>
     </main>
   </body>
+  <script type="text/javascript" src="./js/index.js"></script>
 </html>

@@ -12,6 +12,23 @@
   color: rgb(103 54 121);
 }
 
+/** checkbox styles */
+.checkbox_box {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox_box label {
+  font-size: 20px;
+}
+
+.checkbox_box input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -90,6 +107,10 @@
   background-color: blue;
 }
 .white9 {
-  background-color: white;
+  background-color: #ffffff;
   grid-column: span 3;
+}
+
+.green {
+  background-color: green;
 }
