@@ -1,47 +1,74 @@
 :root {
-  /* font */
-  --main-font: Roboto, sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-
   /* colors */
-  --main-white-cl: #ffffff;
-  --accent-cl: #2196f3;
-
-  /* text colors */
-  --main-txt-cl: #757575;
-  --title-txt-cl: #212121;
-  --accent-cl-white: rgba(255, 255, 255, 0.6);
-  --accent-cl-dark: #000000;
-
-  /* background colors */
-  --main-bg-cl: #e5e5e5;
-  --secondary-bg-cl: #f5f4fa;
-  --dark-bg-cl: #2f303a;
-
-  /* Animation */
-  --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .bg_white {
+    background-color: rgb(255, 255, 255);
+  }
+  .bg_black {
+    background-color: rgb(0, 0, 0);
+  }
+  .bg_red {
+    background-color: rgb(255, 56, 1);
+  }
+  .bg_blue {
+    background-color: rgb(70, 55, 184);
+  }
+  .bg_yellow {
+    background-color: (255, 202, 0);
+  }
 }
 
-body {
-  font-family: var(--main-font);
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.4;
-
-  color: var(--main-txt-cl);
-  background-color: var(--main-white-cl);
+/* body {
+  background-color: rgb(0, 0, 0);
+} */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p {
-  margin: 0;
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+ul {
+  padding-left: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

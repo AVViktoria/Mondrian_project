@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: rgb(103 54 121);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid_container {
+  height: 477px;
+  width: 654px;
+  display: grid;
+  grid-template-columns: 110px 80px 110px 110px 80px 55px 55px;
+  grid-template-rows: 90px 120px 120px 120px;
+  gap: 9px;
+  background-color: black;
+}
+
+/** color boxes */
+.white1 {
+  grid-row: span 2;
+  background-color: white;
+}
+.blue1 {
+  background-color: blue;
+}
+.white2 {
+  background-color: white;
+  grid-column: span 2;
+}
+
+.blue2 {
+  background-color: blue;
+  grid-column: span 2;
+}
+.white3 {
+  background-color: white;
+}
+.white4 {
+  background-color: white;
+}
+.white5 {
+  background-color: white;
+  grid-area: 2/3/4/5;
+  /** just explanation 
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-column-end: 5; **/
+}
+.red {
+  background-color: red;
+  grid-row: span 2;
+}
+
+.white6 {
+  background-color: white;
+  grid-column: span 2;
+}
+.yellow1 {
+  background-color: yellow;
+
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.white7 {
+  background-color: white;
+}
+.yellow2 {
+  background-color: yellow;
+}
+.white8 {
+  background-color: white;
+}
+
+.blue3 {
+  background-color: blue;
+}
+.white9 {
+  background-color: white;
+  grid-column: span 3;
+}
