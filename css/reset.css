@@ -1,20 +1,11 @@
 :root {
   /* colors */
-  .bg_white {
-    background-color: rgb(255, 255, 255);
-  }
-  .bg_black {
-    background-color: rgb(0, 0, 0);
-  }
-  .bg_red {
-    background-color: rgb(255, 56, 1);
-  }
-  .bg_blue {
-    background-color: rgb(70, 55, 184);
-  }
-  .bg_yellow {
-    background-color: (255, 202, 0);
-  }
+  --bg_white: rgb(255, 255, 255);
+  --bg_black: rgb(0, 0, 0);
+  --bg_red: rgb(255, 56, 1);
+  --bg_blue: rgb(70, 55, 184);
+  --bg_yellow: rgb(255, 202, 0);
+  --bg_green: rgb(0, 128, 0);
 }
 
 body {

@@ -36,41 +36,74 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .grid_container {
-  height: 477px;
-  width: 654px;
+  height: 282px;
+  width: 309px;
   display: grid;
-  grid-template-columns: 110px 80px 110px 110px 80px 55px 55px;
-  grid-template-rows: 90px 120px 120px 120px;
-  gap: 9px;
+  grid-template-columns: 65px 35px 65px 65px 35px 10px 10px;
+  grid-template-rows: 45px 75px 75px 75px;
+  gap: 4px;
   background-color: black;
 }
 
+@media screen and (max-width: 480px) {
+  .header_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .grid_container {
+    height: 351px;
+    width: 432px;
+    display: grid;
+    grid-template-columns: 80px 50px 80px 80px 50px 25px 25px;
+    grid-template-rows: 60px 90px 90px 90px;
+    gap: 7px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .grid_container {
+    height: 477px;
+    width: 654px;
+    display: grid;
+    grid-template-columns: 110px 80px 110px 110px 80px 55px 55px;
+    grid-template-rows: 90px 120px 120px 120px;
+    gap: 9px;
+  }
+}
 /** color boxes */
 .white1 {
   grid-row: span 2;
-  background-color: white;
+  background-color: var(--bg_white);
 }
 .blue1 {
-  background-color: blue;
+  background-color: var(--bg_blue);
 }
 .white2 {
-  background-color: white;
+  background-color: var(--bg_white);
   grid-column: span 2;
 }
 
 .blue2 {
-  background-color: blue;
+  background-color: var(--bg_blue);
   grid-column: span 2;
 }
 .white3 {
-  background-color: white;
+  background-color: var(--bg_white);
 }
 .white4 {
-  background-color: white;
+  background-color: var(--bg_white);
 }
 .white5 {
-  background-color: white;
+  background-color: var(--bg_white);
   grid-area: 2/3/4/5;
   /** just explanation 
   grid-row-start: 2;
@@ -79,38 +112,38 @@
   grid-column-end: 5; **/
 }
 .red {
-  background-color: red;
+  background-color: var(--bg_red);
   grid-row: span 2;
 }
 
 .white6 {
-  background-color: white;
+  background-color: var(--bg_white);
   grid-column: span 2;
 }
 .yellow1 {
-  background-color: yellow;
+  background-color: var(--bg_yellow);
 
   grid-row: span 2;
   grid-column: span 2;
 }
 .white7 {
-  background-color: white;
+  background-color: var(--bg_white);
 }
 .yellow2 {
-  background-color: yellow;
+  background-color: var(--bg_yellow);
 }
 .white8 {
-  background-color: white;
+  background-color: var(--bg_white);
 }
 
 .blue3 {
-  background-color: blue;
+  background-color: var(--bg_blue);
 }
 .white9 {
-  background-color: #ffffff;
+  background-color: var(--bg_white);
   grid-column: span 3;
 }
 
 .green {
-  background-color: green;
+  background-color: var(--bg_green);
 }
