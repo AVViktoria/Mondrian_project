@@ -6,6 +6,8 @@
   --bg_blue: rgb(70, 55, 184);
   --bg_yellow: rgb(255, 202, 0);
   --bg_green: rgb(0, 128, 0);
+  /* Animation */
+  --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
