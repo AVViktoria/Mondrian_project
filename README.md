@@ -1,5 +1,6 @@
-Recreate this image using HTML+CSS, adhering to the following rules:
-![Header](https://drive.google.com/file/d/15fOCB5jcDHo99bwtV7SEWl5gpHGdLiHw/view?usp=sharing)
+## :sparkles: Mondrian Challenge
+
+![Header](https://github.com/AVViktoria/Mondrian_project/blob/main/images/goal.jpg)
 
 ## Recreate this image using HTML+CSS, adhering to the following rules:
 
